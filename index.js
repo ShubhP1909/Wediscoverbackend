@@ -16,10 +16,17 @@ app.use(function (req, res, next) {
 
 app.use('/api', api);
 
-const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
     res.send("New Year 2023");
 })
+
+app.use(express.static(path.join(__dirname, "/fronted/build")));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/fronted/build', 'index.html'));
+});
+
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => console.log(`Server start on port ${port}`));
