@@ -1,0 +1,42 @@
+.our-influencers{
+    margin-top: 100px;
+}
+
+.top-cards{
+    margin-top: 20px;
+}
+.top-influencer-text{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.mar-auto{
+    margin: auto;
+}
+.btn-meet,
+.btn-meet:active,
+.btn-meet:focus,
+.btn-meet:hover{
+    color: white;
+    background-color: #1A92CF;
+    padding: 16px 54px;
+    margin-top: 50px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+
+@media (max-width:767px){
+    .btn-meet{
+        margin-top: 30px;
+    }
+    .mt-20{
+        margin-top: 20px;
+    }
+    .top-cards{
+        margin: 0;
+    }
+    .pad-0{
+        padding: 0;
+    }
+}

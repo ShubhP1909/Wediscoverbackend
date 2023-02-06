@@ -1,0 +1,22 @@
+.h-60 {
+    height: 555px;
+}
+
+.product-detail {
+    margin-left: 40px;
+}
+
+.rating-badge {
+    width: 70px;
+    font-weight: 600;
+    padding: 3px 6px;
+    border: 1px solid blue;
+    background-color: #BECA32;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.star {
+    margin-right: 3px;
+}

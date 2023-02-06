@@ -1,0 +1,89 @@
+/* @import "~swiper/css"; */
+/* @import "~swiper/css/pagination";
+@import "~swiper/css/navigation"; */
+
+.card-images {
+    margin-top: 150px;
+    padding: 100px 50px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.swiper-slide .sliders {
+    width: 100%;
+    margin-right: 0;
+}
+
+.sliders {
+    position: relative;
+}
+
+.slider-text {
+    position: absolute;
+    bottom: 70px;
+    left: 35px;
+    color: white;
+}
+
+.view {
+    color: white;
+}
+
+.card-img1 {
+    width: 100%;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+}
+
+.swiper-button-prev {
+    left: 0;
+    height: 40px;
+    background-color: #1A92CF;
+    color: white;
+    border-radius: 6px;
+    width: 35px;
+}
+
+.swiper-button-next {
+    right: 0;
+    height: 40px;
+    background-color: #1A92CF;
+    color: white;
+    border-radius: 6px;
+    width: 35px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 20px;
+}
+
+
+@media (max-width:767px) {
+    .card-images {
+        margin-top: 0;
+    }
+
+    .card-img1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sliders {
+        width: 100% !important;
+        margin-right: 0;
+    }
+
+}

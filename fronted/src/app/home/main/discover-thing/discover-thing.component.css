@@ -1,0 +1,82 @@
+.main {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 107px;
+}
+
+.discover-things {
+    margin-top: 122px;
+}
+
+.discover-thing-title {
+    text-align: center;
+    font-size: 46px;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobbie-group {
+    margin: auto;
+    margin-left: 70px;
+}
+
+.hobbies-title {
+    font-size: 42px;
+}
+
+.hobbie-text {
+    font-size: 22px;
+}
+
+.outdoor-group {
+    margin-right: 70px;
+}
+
+.hobbie-img {
+    height: 432px;
+    width: 100%;
+}
+.margin-auto{
+    margin: auto;
+}
+.discover-things-img{
+    padding: 0;
+}
+
+.nav-tabs .discover-tab{
+    justify-content: center;
+    
+    border-bottom: 2px solid #1A92CF;
+}
+
+
+@media (max-width:767px) {
+    .hobbies {
+        display: block;
+    }
+    
+    .hobbie-group {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .outdoor-group {
+        margin-right: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .discover-things-img{
+      margin-top: 40px;
+    }
+    .discover-thing-title{
+        font-size: 35px;
+    }
+    .discover-things{
+        margin-top: 30px;
+    }
+    .main{
+        margin-top: 80px;
+    }
+}

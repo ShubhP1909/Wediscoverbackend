@@ -1,0 +1,50 @@
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand logo" routerLink="/">
+                <img src="https://wediscoverhub.com/images/logo.png?1" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-22" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}">
+                        <a routerLink="/" class="nav-link nav-tab" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item me-22" [routerLinkActive]="'active'">
+                        <a routerLink="/WeDiscover" class="nav-link nav-tab">We Discover</a>
+                    </li>
+                    <li class="nav-item me-22" [routerLinkActive]="'active'">
+                        <a class="nav-link nav-tab" routerLink="/WeMeet">We Meet</a>
+                    </li>
+                    <li class="nav-item me-22" [routerLinkActive]="'active'">
+                        <a class="nav-link nav-tab" routerLink="/WeShop">We Shop</a>
+                    </li>
+                    <li class="nav-item me-22" [routerLinkActive]="'active'">
+                        <a class="nav-link nav-tab" routerLink="/WeIntro">We Intro</a>
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="'active'">
+                        <a class="nav-link nav-tab" routerLink="/WeGrow">We Grow</a>
+                    </li>
+                </ul>
+                <form class="d-md-flex d-block form-items" role="search">
+                    <div class="input-search">
+                        <img class="search-img d-md-block" src="../../assets/images/search-icon.png" alt="search"
+                            height="20" width="20" />
+                        <input type="text" class="search-tab" placeholder="search...">
+                    </div>
+                    <!-- <input class="form-control me-2 search-tab d-none" type="search" placeholder="Search"
+                        aria-label="Search"> -->
+                    <button class="login-btn" *ngIf="!authService.loggedIn()" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" (click)="openLogin()" #loginButton>Login</button>
+                    <button class="signup-btn" *ngIf="!authService.loggedIn()" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" (click)="openSignUp()" #SignUpButton>SignUp</button>
+                    <button class="logOut-btn" *ngIf="authService.loggedIn()" (click)="LogoutUser()">LogOut</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>

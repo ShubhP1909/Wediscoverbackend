@@ -1,0 +1,94 @@
+.banner-1 {
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.pad-0 {
+    padding: 0;
+}
+
+.discover-banner-2 {
+    background: #23241F 0% 0% no-repeat;
+    font-family: 'Poppins';
+}
+
+.mar-auto {
+    margin: auto 0;
+}
+
+.discover-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover-banner-title {
+    color: #1A92CF;
+    font-size: 45px;
+}
+
+.discover-banner-text-1 {
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 50px;
+
+}
+
+.btn-get-start,
+.btn-get-start:active,
+.btn-get-start:focus,
+.btn-get-start:hover {
+    color: white;
+    background-color: #1A92CF;
+    padding: 16px 52px;
+}
+
+.img-1 {
+    width: 100%;
+}
+
+.discover-banner-img2 {
+    box-shadow: 10px 10px 3px #BECA32;
+}
+
+.mt-60 {
+    margin: 60px 0 -40px;
+}
+
+
+@media (max-width: 767px) {
+
+    .discover-main,
+    .d-img-block {
+        display: block;
+    }
+
+    .img-1 {
+        width: 100%;
+    }
+
+    .discover-banner-img2 {
+        margin: 80px 0;
+    }
+
+    .pad-1 {
+        padding: 8px;
+    }
+
+    .discover-banner-title {
+        font-size: 35px;
+    }
+
+    .discover-banner-text-1 {
+        font-size: 16px;
+        margin: 20px 0 30px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1199px) {
+
+    .discover-banner-title {
+        font-size: 28px;
+    }
+}

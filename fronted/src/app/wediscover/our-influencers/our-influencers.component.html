@@ -1,0 +1,20 @@
+<section class="our-influencers">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mar-auto">
+                <h1>Our top 6 influencers</h1>
+                <p class="top-influencer-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+                <button class="btn btn-meet" (click)="openWeMeet()">Meet them</button>
+            </div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-4 mt-20" *ngFor="let item of images">
+                        <img [src]="item.img1" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

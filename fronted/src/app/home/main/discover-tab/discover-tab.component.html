@@ -1,0 +1,110 @@
+<section class="main">
+  <div class="container-fluid pad-0">
+    <div class="why-discover">
+      <h1 class="discover-tab-title">Why<h1 class="why-discover-title ms-2"> Wediscoverhub</h1>?</h1>
+      <ul ngbNav #nav="ngbNav" class="nav-tabs discover-tab">
+        <li [ngbNavItem]="1">
+          <a ngbNavLink class="nav-link-item">We discover</a>
+          <ng-template ngbNavContent>
+            <div class="wediscover-banner">
+              <div class="row justify-between">
+                <div class="col-md-6">
+                  <div class="banner-group">
+                    <h1 class="discover-banner-title">We Discover</h1>
+                    <p class="discover-banner-text">Discover new skills and know about master and lead influencers</p>
+                    <button class="btn know-more" [routerLink]="'WeDiscover'">Know More</button>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-50">
+                  <img src="../../../../assets/images/Group 90408.png" class="why-discover-img" alt="why Discover" />
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="2">
+          <a ngbNavLink class="nav-link-item">We Meet</a>
+          <ng-template ngbNavContent>
+            <div class="wediscover-banner">
+              <div class="row justify-between">
+                <div class="col-md-6 mar-auto">
+                  <div class="banner-group">
+                    <h1 class="discover-banner-title">We Meet</h1>
+                    <p class="discover-banner-text">Discover new skills and know about master and lead influencers</p>
+                    <button class="btn know-more" (click)="openWemeet()">Know More</button>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-50">
+                  <img src="../../../../assets/images/our_influencer_1.png" class="why-discover-img"
+                    alt="why Discover" />
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="3">
+          <a ngbNavLink class="nav-link-item">We Shop</a>
+          <ng-template ngbNavContent>
+            <div class="wediscover-banner">
+              <div class="row justify-between">
+                <div class="col-md-6 mar-auto">
+                  <div class="banner-group">
+                    <h1 class="discover-banner-title">We Shop</h1>
+                    <p class="discover-banner-text">Discover new skills and know about master and lead influencers</p>
+                    <button class="btn know-more" (click)="openWeShop()">Know More</button>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-50">
+                  <img src="../../../../assets/images/our_influencer_2.png" class="why-discover-img"
+                    alt="why Discover" />
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="4">
+          <a ngbNavLink class="nav-link-item">We Intro</a>
+          <ng-template ngbNavContent>
+            <div class="wediscover-banner">
+              <div class="row justify-between">
+                <div class="col-md-6 mar-auto">
+                  <div class="banner-group">
+                    <h1 class="discover-banner-title">We Intro</h1>
+                    <p class="discover-banner-text">Discover new skills and know about master and lead influencers</p>
+                    <button class="btn know-more" (click)="openWeIntro()">Know More</button>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-50">
+                  <img src="../../../../assets/images/our_influencer_3.png" class="why-discover-img"
+                    alt="why Discover" />
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="5">
+          <a ngbNavLink class="nav-link-item">We Grow</a>
+          <ng-template ngbNavContent>
+            <div class="wediscover-banner">
+              <div class="row justify-between">
+                <div class="col-md-6 mar-auto">
+                  <div class="banner-group">
+                    <h1 class="discover-banner-title">We Grow</h1>
+                    <p class="discover-banner-text">Discover new skills and know about master and lead influencers</p>
+                    <button class="btn know-more" (click)="openWeGrow()">Know More</button>
+                  </div>
+                </div>
+                <div class="col-md-5 mt-50">
+                  <img src="../../../../assets/images/our_influencer_4.png" class="why-discover-img"
+                    alt="why Discover" />
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </li>
+      </ul>
+
+      <div [ngbNavOutlet]="nav"></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,87 @@
+.main {
+    max-width: 1440px;
+    margin: auto;
+    max-height: 754px;
+}
+.pad-0{
+    padding: 0;
+}
+
+.why-discover {
+    margin-top: 161px;
+}
+
+.discover-tab-title {
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.why-discover-title{
+    color: #1A92CF;
+}
+.discover-tab{
+    justify-content: center;
+    border: 0;
+}
+
+.wediscover-banner{
+    background: rgba(190,202,50,0.08)  no-repeat padding-box;
+    padding: 95px 130px 0;
+    max-height: 500px;
+
+}
+.justify-between{
+    justify-content: space-between;
+    margin: 0;
+}
+.why-discover-img{
+    width: 100%;
+    height: 553px;
+}
+.banner-group{
+    margin-top: 40px;
+}
+.discover-banner-title{
+    font-size: 42px;
+}
+.discover-banner-text{
+   font-size: 20px;
+}
+.know-more,
+.know-more:active,
+.know-more:focus,
+.know-more:hover{
+    background-color: #1A92CF;
+    color: white;
+    border-radius: 10px;
+    padding: 16px 53px;
+}
+.nav-tabs{
+    --bs-nav-tabs-link-active-color: #1A92CF;
+    --bs-nav-tabs-link-active-border-color: white white #1A92CF;
+    --bs-nav-tabs-border-width: 2px;
+}
+.nav-link{
+  --bs-nav-link-color : black;
+  color: var(--bs-nav-link-color);
+}
+
+@media (max-width:767px){
+    .why-discover{
+        margin-top: 70px;
+    }
+    .discover-tab-title{
+        font-size: 34px;
+    }
+    .wediscover-banner{
+        max-height: 100%;
+        padding: 0;
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+    .main{
+        max-height: 100%;
+    }
+}

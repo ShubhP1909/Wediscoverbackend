@@ -1,0 +1,13 @@
+.indicator{
+    width: 12px;
+    height: 12px;
+    background-color: #1A92CF;
+    border-radius: 50%;
+}
+.h-500{
+    max-height: 500px;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}

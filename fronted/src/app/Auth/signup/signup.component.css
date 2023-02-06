@@ -1,0 +1,12 @@
+.loginform {
+    margin: auto;
+    max-width: 550px;
+}
+
+.modal-title {
+    margin: auto;
+}
+
+.modal-header .btn-close {
+    margin: 0;
+}
